@@ -25,6 +25,7 @@
         <module>javafx-tableview-example</module>
         <module>javafx-clock-example</module>
         <module>javafx-stopwatch-example</module>
+        <module>javafx-property-example</module>
     </modules>
 
     <properties>
