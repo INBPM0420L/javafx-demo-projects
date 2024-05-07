@@ -23,6 +23,7 @@
         <module>javafx-scene-switch-example</module>
         <module>javafx-imageview-stacking-example</module>
         <module>javafx-tableview-example</module>
+        <module>javafx-clock-example</module>
     </modules>
 
     <properties>
