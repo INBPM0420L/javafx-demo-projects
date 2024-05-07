@@ -19,6 +19,7 @@
         <module>javafx-board-game-example3</module>
         <module>javafx-board-game-example4</module>
         <module>javafx-imageview-example</module>
+        <module>javafx-data-pass-example</module>
     </modules>
 
     <properties>
