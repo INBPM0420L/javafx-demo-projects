@@ -14,6 +14,7 @@
         <module>javafx-binding-example</module>
         <module>javafx-converter-example</module>
         <module>javafx-editor-example</module>
+        <module>javafx-calculator-example</module>
         <module>javafx-board-game-example1</module>
         <module>javafx-board-game-example2</module>
         <module>javafx-board-game-example2-game-over</module>

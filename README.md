@@ -73,6 +73,10 @@ the top of each other in [JavaFX](https://openjfx.io/) with the
 
     A simple number converter, written in [JavaFX](https://openjfx.io/).
 
+1. [`javafx-calculator-example`](./javafx-calculator-example/)
+
+    A basic calculator written in [JavaFX](https://openjfx.io/).
+
 1. [`javafx-clock-example`](./javafx-clock-example/)
 
     An example project that demonstrates how to display the current time in [JavaFX](https://openjfx.io/).
