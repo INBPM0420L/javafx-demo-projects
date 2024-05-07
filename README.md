@@ -73,7 +73,7 @@ the top of each other in [JavaFX](https://openjfx.io/) with the
 
     An example project that demonstrates how to display the current time in [JavaFX](https://openjfx.io/).
 
-1. [`javafx-data-pass-example](./javafx-data-pass-example/)
+1. [`javafx-data-pass-example`](./javafx-data-pass-example/)
 
     An example project that demonstrates how to pass data between [JavaFX](https://openjfx.io/) controllers.
 
