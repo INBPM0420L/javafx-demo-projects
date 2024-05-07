@@ -4,8 +4,8 @@ import javafx.util.StringConverter;
 
 public class NumberSystemConverter extends StringConverter<String> {
 
-    private int fromRadix;
-    private int toRadix;
+    private final int fromRadix;
+    private final int toRadix;
 
     public NumberSystemConverter(int fromRadix, int toRadix) {
         this.fromRadix = fromRadix;
