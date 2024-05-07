@@ -50,6 +50,10 @@ the top of each other in [JavaFX](https://openjfx.io/) with the
 
     An example project that demonstrates how to implement a board game in [JavaFX](https://openjfx.io/).
 
+1. [`javafx-board-game-example2-game-over`](./javafx-board-game-example2-game-over/)
+
+    Example project that demonstrates how to implement a board game in [JavaFX](https://openjfx.io/).
+
 1. [`javafx-board-game-example3`](./javafx-board-game-example3/)
 
     An example project that demonstrates how to implement a board game in [JavaFX](https://openjfx.io/).
