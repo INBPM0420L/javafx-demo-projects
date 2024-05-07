@@ -9,7 +9,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>javafx-board-game-example-3</artifactId>
+    <artifactId>javafx-board-game-example3</artifactId>
 
     <properties>
         <exec.mainClass>boardgame.Main</exec.mainClass>
