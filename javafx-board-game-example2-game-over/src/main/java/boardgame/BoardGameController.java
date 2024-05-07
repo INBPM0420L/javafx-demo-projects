@@ -74,10 +74,10 @@ public class BoardGameController {
         model.makeMove(row, col);
     }
 
-    private void handleGameOver(ObservableValue observableValue, boolean oldValue, boolean newValue) {
+    private void handleGameOver(ObservableValue<? extends Boolean> observableValue, boolean oldValue, boolean newValue) {
         if (newValue) {
             Logger.debug("Game board is full");
-            Platform.runLater(() -> showGameOverAlertAndExit());
+            Platform.runLater(this::showGameOverAlertAndExit);
         }
     }
 

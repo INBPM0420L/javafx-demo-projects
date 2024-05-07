@@ -6,19 +6,22 @@ public class BoardGameModel {
 
     public static final int BOARD_SIZE = 5;
 
-    private final ReadOnlyObjectWrapper<Square>[][] board = new ReadOnlyObjectWrapper[BOARD_SIZE][BOARD_SIZE];
+    private final ReadOnlyObjectWrapper<Square>[][] board;
 
-    private final ReadOnlyIntegerWrapper numberOfCoins = new ReadOnlyIntegerWrapper();
+    private final ReadOnlyIntegerWrapper numberOfCoins;
 
-    private final ReadOnlyBooleanWrapper gameOver = new ReadOnlyBooleanWrapper();
+    private final ReadOnlyBooleanWrapper gameOver;
 
+    @SuppressWarnings("unchecked")
     public BoardGameModel() {
+        board = new ReadOnlyObjectWrapper[BOARD_SIZE][BOARD_SIZE];
         for (var i = 0; i < BOARD_SIZE; i++) {
             for (var j = 0; j < BOARD_SIZE; j++) {
                 board[i][j] = new ReadOnlyObjectWrapper<>(Square.NONE);
             }
         }
-        numberOfCoins.set(0);
+        numberOfCoins = new ReadOnlyIntegerWrapper(0);
+        gameOver = new ReadOnlyBooleanWrapper();
         gameOver.bind(numberOfCoins.isEqualTo(BOARD_SIZE * BOARD_SIZE));
     }
 
