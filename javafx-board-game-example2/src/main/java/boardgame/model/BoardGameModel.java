@@ -28,13 +28,7 @@ public class BoardGameModel {
     }
 
     public void move(int i, int j) {
-        board[i][j].set(
-                switch (board[i][j].get()) {
-                    case NONE -> Square.HEAD;
-                    case HEAD -> Square.TAIL;
-                    case TAIL -> Square.NONE;
-                }
-        );
+        board[i][j].set(board[i][j].get().next());
     }
 
     public String toString() {
