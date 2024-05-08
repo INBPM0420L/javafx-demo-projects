@@ -21,7 +21,7 @@ public class EditorModel {
     public EditorModel() {
         content.addListener((observable, oldValue, newValue) -> {
             modified.set(true);
-            Logger.debug("Content changed");
+            Logger.debug("Content changed {}", newValue);
         });
     }
 

@@ -35,7 +35,7 @@ public class EditorController {
 
     @FXML
     private void onAbout() {
-        var alert = new Alert(Alert.AlertType.INFORMATION);
+        var alert = new Alert(Alert.AlertType.ERROR);
         alert.setTitle("About");
         alert.setHeaderText("JavaFX Text Editor");
         alert.setContentText("""
